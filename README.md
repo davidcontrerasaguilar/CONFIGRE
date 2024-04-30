@@ -20,4 +20,11 @@ We defined a different configuration for **BPR** and **SVD** on each dataset.
 * **SVD in Songs**. *epochs* = 10, *batch size* = 512, *factors* = 10, *learning rate* = 0.01, *bias regularization* = 0.01, *user regularization* = 0.01, *positive item regularization* = 0.01, *negative item regularization* = 0.01,
 
 For each user, we generated the *top-1000* recommendations (denoted in the paper as the top-𝑛) to then re-rank the *top-𝑘* (set up to 10) through the proposed CONFIGRE algorithm.
-To evaluate recommendation effectiveness, we measure the ranking quality of the lists by measuring the Normalized Discounted Cumulative Gain (NDCG) [19]
+To evaluate recommendation effectiveness, we measure the ranking quality of the lists by measuring the Normalized Discounted Cumulative Gain (NDCG)
+
+## CITATION
+If you use our source datasets, and experiments for your research or development, please cite the following paper
+
+
+## CONTACT
+If you have any questions, do not hesitate to contact us by david.contreras@unap.cl or egomezy109@gmail.com, we will be happy to assist.
