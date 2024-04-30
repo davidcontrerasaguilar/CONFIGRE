@@ -1,8 +1,8 @@
 # CONFIGRE
 ## DATASETS
-We used two datasets:
-* (1) the **MovieLens-1M (Movies)** extended to integrate the continent and the country of production of each movie, it provides 1M ratings (range 1-5), provided by 6,040 users, to 3,600 movies, 54 countries, and 6 continents; 
-* (2) a new created dataset called **DataSongs (Songs)**, which contains 1,777,981 ratings (range 1-5), provided by 30,759 users, to 16,380 songs, 62 countries, and 6 continents. 
+In our experiments, We used two ```datasets```, which are available in the ```Movies``` and ```Songs``` folders:
+* (1) the **MovieLens-1M (Movies, ```items.csv```)** extended to integrate the continent and the country of production of each movie, it provides 1M ratings (range 1-5), provided by 6,040 users, to 3,600 movies, 54 countries, and 6 continents; 
+* (2) a new created dataset called **DataSongs (Songs, ```songs.csv```)**, which contains 1,777,981 ratings (range 1-5), provided by 30,759 users, to 16,380 songs, 62 countries, and 6 continents. 
 
 ## EXPERIMENTAL SETUP
 To run the recommendation models presented in the paper, we used the Cornac framework, which generated the recommendations for each user and it generates consistently formatted lists that can be fed to CONFIGRE, P-Fair, and CP-Fair. In addition, datasets were randomly separated into a test set (20%) and a train set (80%).
