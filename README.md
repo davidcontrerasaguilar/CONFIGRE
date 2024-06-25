@@ -25,6 +25,23 @@ To evaluate recommendation effectiveness, we measure the ranking quality of the 
 ## CITATION
 If you use our source datasets, and experiments for your research or development, please cite the following paper
 
+@inproceedings{10.1145/3627043.3659552,  
+author = {G\'{o}mez, Elizabeth and Contreras, David and Salamo, Maria and Boratto, Ludovico},  
+title = {Bringing Equity to Coarse and Fine-Grained Provider Groups in Recommender Systems},  
+year = {2024},  
+isbn = {9798400704338},  
+publisher = {Association for Computing Machinery},  
+address = {New York, NY, USA},  
+url = {https://doi.org/10.1145/3627043.3659552},  
+doi = {10.1145/3627043.3659552},  
+abstract = {Provider fairness aims at regulating the recommendation lists, so that the items of different providers/provider groups are suggested by respecting notions of equity. When group fairness is among the goals of a system, a common way is to use coarse groups since the number of considered provider groups is usually small (e.g., two genders, or three/four age groups) and the number of items per group is large. From a practical point of view, having few groups makes it easier for a platform to manage the distribution of equity among them. Nevertheless, there are sensitive attributes, such as the age or the geographic provenance of the providers that can be characterized at a fine granularity (e.g., one might group providers at the country level, instead of the continent one), which increases the number of groups and decrements the number of items per group. In this study, we show that, in large demographic groups, when considering coarse-grained provider groups, the fine-grained provider groups are under-recommended by the state-of-the-art models. To overcome this issue, in this paper, we present an approach that brings equity to both coarse and fine-grained provider groups. Experiments on two real-world datasets show the effectiveness of our approach.},
+booktitle = {Proceedings of the 32nd ACM Conference on User Modeling, Adaptation and Personalization},  
+pages = {18–23},  
+numpages = {6},  
+keywords = {Bias, Disparate Impact., Geographic Groups, Provider Fairness, Recommender systems},  
+location = {Cagliari, Italy},  
+series = {UMAP '24}  
+}
 
 ## CONTACT
 If you have any questions, do not hesitate to contact us by david.contreras@unap.cl or egomezy109@gmail.com, we will be happy to assist.
